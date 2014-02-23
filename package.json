@@ -1,0 +1,34 @@
+{
+  "name": "passport-jawbone",
+  "version": "0.1.0",
+  "description": "Jawbone UP authentication strategy for Passport.",
+  "keywords": ["passport", "jawbone", "auth"],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/CogstateDev/passport-jawbone.git"
+  },
+  "bugs": {
+    "url": "http://github.com/CogstateDev/passport-jawbone/issues"
+  },
+  "author": {
+    "name": "Luke Opperman",
+    "email": "luke@seabourneconsulting.com"
+  },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "main": "./lib/passport-jawbone",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "0.1.x"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "should": "~3.1.2"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/mocha test/*.js"
+  },
+  "engines": { "node": ">= 0.4.0" }
+}
